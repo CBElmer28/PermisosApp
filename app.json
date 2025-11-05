@@ -13,6 +13,10 @@
       "backgroundColor": "#ffffff"
     },
     "ios": {
+      "infoPlist": {
+        "NSCameraUsageDescription": "Esta app necesita acceso a la cámara para tomar fotos de tus actividades.",
+        "NSLocationWhenInUseUsageDescription": "Esta app necesita tu ubicación para mostrar información geográfica precisa."
+      },
       "supportsTablet": true
     },
     "android": {
